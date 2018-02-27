@@ -1,0 +1,8 @@
+node_modules
+dist
+yarn.lock
+*.js.map
+src/**/*.js
+jspm_packages
+*.map
+*.js

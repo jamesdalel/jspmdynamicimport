@@ -1,0 +1,28 @@
+{
+  "name": "exampleapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev-tsc": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "jspm": "^0.16.53",
+    "systemjs": "^0.21.0",
+    "ts-loader": "^4.0.0",
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {},
+  "jspm": {
+    "main": "jspmdynamic.js",
+    "dependencies": {
+      "ts": "github:frankwallis/plugin-typescript@^9.0.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4",
+      "plugin-typescript": "github:frankwallis/plugin-typescript@^9.0.0"
+    }
+  }
+}
